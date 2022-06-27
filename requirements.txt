@@ -1,0 +1,18 @@
+Requirements
+
+Python == 3.7.8 
+
+Operating System
+Windows 10 
+
+Packages: 
+sklearn == 1.0.2
+pandas == 1.1.5
+matplotlib == 3.5.2
+seaborn == 0.11.2
+gensim == 4.1.2
+numpy == 1.21.6
+nltk == 3.7
+torch == 1.11.0+cpu
+tqdm == 4.64.0
+transformers == 4.18.0
