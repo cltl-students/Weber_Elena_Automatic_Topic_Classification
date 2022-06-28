@@ -47,7 +47,7 @@ Thesis Project Structure
 ```
 
 ### \code
-The folder [code](www.linkcode.com) contains the scripts, notebooks, and txt files needed to reproduce this project. 
+The folder [code](https://github.com/cltl-students/Weber_Elena_Automatic_Topic_Classification/tree/main/code) contains the scripts, notebooks, and txt files needed to reproduce this project. 
 To reproduce the project, follow the order of the files listed below:
 
 * `statistics.ipynb` generates statistics regarding the fully annotated dataset. It also includes the code to split the data. 
@@ -71,10 +71,10 @@ Topic Classification Task:
 
     * `embeddings_features.py`
 
-* `transformers.ipynb` this notebook fine-tunes the pre-trained models on the different datasets, this has to be specified within the notebook by uncommenting certain parts. The fine-tuned model is then saved to [\models](www.foldermodels.com). The default for this notebook is *BERT* and the original dataset.
+* `transformers.ipynb` this notebook fine-tunes the pre-trained models on the different datasets, this has to be specified within the notebook by uncommenting certain parts. The fine-tuned model is then saved to [\models](https://github.com/cltl-students/Weber_Elena_Automatic_Topic_Classification/tree/main/models). The default for this notebook is *BERT* and the original dataset.
 
 ### \data
-The data folder only contains the `example_dataset.csv` since the data is not allowed to be shared. However, the csv file shows the structure of the data. 
+The [data folder](https://github.com/cltl-students/Weber_Elena_Automatic_Topic_Classification/tree/main/data) only contains the `example_dataset.csv` since the data is not allowed to be shared. However, the csv file shows the structure of the data. 
 
 ### \figures
 The folder is used to store the figures, for instance, the confusion matrices of each classification approach. It is separated into the different approaches and each contains one example:
