@@ -1,0 +1,12 @@
+;precision;recall;f1-score;support
+Employee Attitude and Behavior;0.658;0.442;0.529;113.0
+Employee Knowledge & Skills;0.619;0.302;0.406;43.0
+Handling;0.587;0.443;0.505;61.0
+Information Provision;0.527;0.906;0.667;202.0
+No topic found;0.45;0.281;0.346;32.0
+Other;0.667;0.25;0.364;40.0
+Overall Experience;0.603;0.583;0.593;60.0
+Processes;0.708;0.304;0.425;56.0
+accuracy;0.567;0.567;0.567;0.567
+macro avg;0.602;0.439;0.479;607.0
+weighted avg;0.593;0.567;0.54;607.0

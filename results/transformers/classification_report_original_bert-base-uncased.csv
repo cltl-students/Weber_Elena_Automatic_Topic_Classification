@@ -1,0 +1,15 @@
+;precision;recall;f1-score;support
+Digital Options;0.5;0.545;0.522;11.0
+Employee Attitude and Behavior;0.838;0.735;0.783;113.0
+Employee Contact;0.0;0.0;0.0;5.0
+Employee Knowledge & Skills;0.545;0.419;0.474;43.0
+Handling;0.741;0.705;0.723;61.0
+Information Provision;0.774;0.866;0.818;202.0
+No topic found;0.429;0.469;0.448;32.0
+Overall Experience;0.603;0.783;0.681;60.0
+Price and Quality;0.6;0.474;0.529;19.0
+Processes;0.745;0.679;0.71;56.0
+Quality and Offering;0.0;0.0;0.0;5.0
+accuracy;0.715;0.715;0.715;0.715
+macro avg;0.525;0.516;0.517;607.0
+weighted avg;0.706;0.715;0.707;607.0
