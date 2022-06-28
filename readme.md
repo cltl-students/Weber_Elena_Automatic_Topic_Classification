@@ -58,12 +58,12 @@ For data adaptation:
 * `undersampling.py` this script undersamples the input data, it is recommended to use the train dataset for this
 
 Topic Classification Task: 
-* `classifier_bow_tfidf.py` this script trains various classifier, Naive Bayes, Logistic Regression, and Support Vector Machine and predicts the learned labels on the test data set using a Bag of Words combined with TF-IDF approach. For this the following files are needed:
+* `classifier_bow_tfidf.py` this script trains various classifiers, Naive Bayes, Logistic Regression, and Support Vector Machine and predicts the learned labels on the test data set using a Bag of Words combined with TF-IDF approach. For this the following files are needed:
     * `preprocessing.py` this script serves as the preprocessing function, containing tokenizing, removal of named entities (`list_names.txt`, `de_volksbank_terms.txt`), lowercasing, removing stopwords, removing frequent words, removing undefinded characters, removing punctuation, removing digits, and lemmatizing. 
 
    * `list_names.txt` 
 
-    Optional: removing company-related terms using `de_volksbank_terms.txt` and spelling correction :
+    Optional: removing company-related terms using `de_volksbank_terms.txt` and spelling correction:
 
     * `de_volksbank_terms.txt` 
 
@@ -71,7 +71,7 @@ Topic Classification Task:
 
     * `embeddings_features.py`
 
-* `transformers.ipynb` this notebook fine-tunes the pre-trained models on the different datasets, this has to be specified within the notebook by uncommenting certain parts. The fine-tuned model is then saved to [\models](www.foldermodels.com). The default for this notebook is *DistilBERT* and the original dataset.
+* `transformers.ipynb` this notebook fine-tunes the pre-trained models on the different datasets, this has to be specified within the notebook by uncommenting certain parts. The fine-tuned model is then saved to [\models](www.foldermodels.com). The default for this notebook is *BERT* and the original dataset.
 
 ### \data
 The data folder only contains the `example_dataset.csv` since the data is not allowed to be shared. However, the csv file shows the structure of the data. 
@@ -94,7 +94,7 @@ This folder contains the results, i.e., the classification reports and csv files
 * \transformers
 
 ### `requirements.txt`
-This txt file lists all the required packages and provides direct installation instructions using pip. 
+This txt file lists all the required packages. 
 ***
 
 ## Thesis Report 
