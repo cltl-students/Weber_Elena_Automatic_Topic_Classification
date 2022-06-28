@@ -19,8 +19,8 @@ Topic Classification Task:
 
     * `de_volksbank_terms.txt` 
 
-* `classifier_emb.py` this script trains the classifiers Logistic Regression and Support Vector Machine and predicts the learned labels on the test data. For this approach embeddings are being used. To access the BankFin embeddings download them [here](https://github.com/sid321axn/bank_fin_embedding) and the GoogleNews [here](https://code.google.com/archive/p/word2vec/) and save them in the [models](www.foldermodels.com) folder. To tokenize and vectorize the data the following script is needed: 
+* `classifier_emb.py` this script trains the classifiers Logistic Regression and Support Vector Machine and predicts the learned labels on the test data. For this approach embeddings are being used. To access the BankFin embeddings download them [here](https://github.com/sid321axn/bank_fin_embedding) and the GoogleNews [here](https://code.google.com/archive/p/word2vec/) and save them in the [models](https://github.com/cltl-students/Weber_Elena_Automatic_Topic_Classification/tree/main/models) folder. To tokenize and vectorize the data the following script is needed: 
 
     * `embeddings_features.py`
 ###
-* `transformers.ipynb` this notebook fine-tunes the pre-trained models on the different datasets, this has to be specified within the notebook by uncommenting certain parts. The fine-tuned model is then saved to [\models](www.foldermodels.com). The default for this notebook is *DistilBERT* and the original dataset.
+* `transformers.ipynb` this notebook fine-tunes the pre-trained models on the different datasets, this has to be specified within the notebook by uncommenting certain parts. The fine-tuned model is then saved to [\models](https://github.com/cltl-students/Weber_Elena_Automatic_Topic_Classification/tree/main/models). The default for this notebook is *DistilBERT* and the original dataset.
