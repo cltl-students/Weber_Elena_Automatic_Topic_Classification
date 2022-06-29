@@ -8,7 +8,7 @@ The project was carried out in collaboration with the company [Underlined](https
 
 The thesis project focuses on the Automatic Topic Classification of customer feedback derived from the banking domain. Topic Classification is the task of assigning a topic for a particular document from a set of predefined topics. For this, we explore and compare various conventional machine learning approaches (Support Vector Machine, Logistic Regression, and Naive Bayes) with more recent deep learning ones (BERT, RoBERTa, and DistilBERT) that currently provide the state-of-the-art results for a vast majority of Natural Language Processing tasks. Due to the unbalanced nature of the dataset, several topic and data augmentation and reduction methods are being tested. The data augmentation method focuses on back-translation. In contrast, the topic adaptation methods merge topics with overlapping content as well as topics that are inherently underrepresented within the dataset. Additionally, to determine the minimum number of training examples needed for a classifier to provide a reasonable performance we not only evaluate the performance of the merged datasets but also implement a data reduction approach in the form of undersampling. 
 
-The process, setup, results, and evaluation of the results can be found in the thesis report, `XXXXXXXXXXXXXXXXXPDF.pdf`. 
+The process, setup, results, and evaluation of the results can be found in the [thesis report](https://github.com/cltl-students/Weber_Elena_Automatic_Topic_Classification/blob/main/Weber_Elena_MA_Thesis.pdf). 
 
 **Note:** Since the data cannot be shared with third-parties, it cannot be found in this repository. Outputs that give an indication about its content have been hidden. 
 
@@ -98,7 +98,7 @@ This txt file lists all the required packages.
 ***
 
 ## Thesis Report 
-### `Weber-MasterThesis.pdf`
+### `Weber-Elena_MA_Thesis.pdf`
 The pdf file contains the full thesis report.
 ***
 
