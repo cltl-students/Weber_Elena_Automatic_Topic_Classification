@@ -6,4 +6,4 @@ This folder contains the results, i.e., the classification reports and csv files
 * \predictions
 * \transformers
 
-A more detailed description and analysis of the results can be found in *Chapter 4 - Results* of the [Thesis Report](www.linktothesis.pdf).
+A more detailed description and analysis of the results can be found in *Chapter 4 - Results* of the [Thesis Report](https://github.com/cltl-students/Weber_Elena_Automatic_Topic_Classification/blob/main/Weber_Elena_MA_Thesis.pdf).
