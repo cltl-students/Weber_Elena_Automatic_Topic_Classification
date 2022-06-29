@@ -98,7 +98,7 @@ This txt file lists all the required packages.
 ***
 
 ## Thesis Report 
-### `Weber-Elena_MA_Thesis.pdf`
+### `Weber_Elena_MA_Thesis.pdf`
 The pdf file contains the full thesis report.
 ***
 
